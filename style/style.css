@@ -222,7 +222,7 @@ footer p {
     }
 
     header {
-        padding: 0px; /* Ajuste para telas menores */
+        padding: 5px; /* Ajuste para telas menores */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -232,14 +232,16 @@ footer p {
         font-size: 16px;
     }
 
-    nav {
+    header nav {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: center;
+        margin-left: 20px;
     }
 
     header nav a {
-        margin: 10px;  
+        margin: 10px;
     }
 
 
