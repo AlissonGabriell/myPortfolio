@@ -228,6 +228,8 @@ footer p {
     nav {
         display: flex;
         flex-wrap: nowrap;
+        align-self: center;
+        margin: auto;
     }
 
     #introduction {
