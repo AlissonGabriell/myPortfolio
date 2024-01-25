@@ -230,7 +230,7 @@ footer p {
 
     header .title {
         font-size: 16px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 
     nav {
@@ -238,6 +238,7 @@ footer p {
         flex-wrap: nowrap;
         align-items: center;
         margin-bottom: 10px;
+        margin-right: auto;
     }
 
     #introduction {
