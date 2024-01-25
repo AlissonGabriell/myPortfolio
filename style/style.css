@@ -99,7 +99,7 @@ header nav a:hover {
 }
 
 #knowledge {
-    height: 360px;
+    height: auto;
     margin: auto;
     justify-content: center;
     text-align: center;
@@ -134,7 +134,7 @@ li {
 }
 
 #portfolio {
-    height: 600px;
+    height: auto;
     justify-content: center;
     text-align: center;
 }
@@ -225,6 +225,11 @@ footer p {
         margin-bottom: 10px;
     }
 
+    header a {
+        margin: auto;
+    }
+
+
     #introduction {
         flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
         align-items: center; /* Centralize os elementos na tela menor */
@@ -241,7 +246,7 @@ footer p {
     }
 
     #knowledge {
-        height: 300px;
+        height: auto;
     }
 
     #knowledge ul {
