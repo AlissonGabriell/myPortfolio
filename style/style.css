@@ -110,10 +110,6 @@ header nav a:hover {
     padding: auto;
 }
 
-#knowledge .section_title {
-    margin-top: 40px;
-}
-
 #knowledge ul {
     justify-self: center;
     margin-bottom: 10px;
@@ -141,10 +137,6 @@ li {
     height: auto;
     justify-content: center;
     text-align: center;
-}
-
-#portfolio .section_title {
-    margin-top: 40px;
 }
 
 #portfolio .project {
@@ -249,7 +241,7 @@ footer p {
     #introduction {
         flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
         align-items: center; /* Centralize os elementos na tela menor */
-        padding-top: 110px; /* Ajuste para uma melhor aparência na tela menor */
+        padding-top: auto; /* Ajuste para uma melhor aparência na tela menor */
     }
 
     #introduction img {
