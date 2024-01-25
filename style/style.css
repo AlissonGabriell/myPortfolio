@@ -9,6 +9,10 @@
     --bg-color2: #38393e;
 }
 
+main {
+    background-color: var(--bg-color2);
+}
+
 header, #introduction,  #portfolio {
     padding: 40px;
     background-color: var(--bg-color1);
