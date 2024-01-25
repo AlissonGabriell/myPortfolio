@@ -217,6 +217,10 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    main {
+        background-color: var(--bg-color2);
+    }
+
     header {
         padding: 5px; /* Ajuste para telas menores */
         display: flex;
