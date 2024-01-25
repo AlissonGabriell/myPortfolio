@@ -214,7 +214,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
     header {
-        padding: 10px; /* Ajuste para telas menores */
+        padding: 0px; /* Ajuste para telas menores */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -225,15 +225,15 @@ footer p {
         margin-bottom: 10px;
     }
 
-    header a {
-        margin: auto;
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
     }
-
 
     #introduction {
         flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
         align-items: center; /* Centralize os elementos na tela menor */
-        padding-top: 100px; /* Ajuste para uma melhor aparência na tela menor */
+        padding-top: 120px; /* Ajuste para uma melhor aparência na tela menor */
     }
 
     #introduction img {
@@ -247,16 +247,17 @@ footer p {
 
     #knowledge {
         height: auto;
+        align-items: center;
     }
 
     #knowledge ul {
-        display: flex;
+        display: block;
     }
 
     #knowledge ul li {
-        width: 100%; /* Faça com que os ícones ocupem 100% da largura na tela menor */
+        width: auto; /* Faça com que os ícones ocupem 100% da largura na tela menor */
         box-sizing: border-box; /* Certifique-se de que as bordas estejam incluídas no cálculo da largura */
-        padding: 20px; /* Ajuste o preenchimento para uma melhor aparência na tela menor */
+        padding: 14px; /* Ajuste o preenchimento para uma melhor aparência na tela menor */
         margin: auto 5px;
     }
 
@@ -269,7 +270,7 @@ footer p {
     }
 
     iframe {
-        width: 400px;
-        height: 210px;
+        width: auto;
+        height: auto;
     }
 }
