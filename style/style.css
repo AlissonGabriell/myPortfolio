@@ -218,7 +218,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
     header {
-        padding: 0px; /* Ajuste para telas menores */
+        padding: 5px; /* Ajuste para telas menores */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -226,20 +226,20 @@ footer p {
 
     header .title {
         font-size: 16px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     nav {
-        display: flex;
+        display: block;
         flex-wrap: nowrap;
-        align-self: center;
-        margin: auto;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
     #introduction {
         flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
         align-items: center; /* Centralize os elementos na tela menor */
-        padding-top: 130px; /* Ajuste para uma melhor aparência na tela menor */
+        padding-top: 110px; /* Ajuste para uma melhor aparência na tela menor */
     }
 
     #introduction img {
