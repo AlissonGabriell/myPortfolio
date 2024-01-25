@@ -222,7 +222,7 @@ footer p {
     }
 
     header {
-        padding: 5px; /* Ajuste para telas menores */
+        padding: 0px; /* Ajuste para telas menores */
         display: flex;
         flex-direction: column;
         align-items: center;
