@@ -233,7 +233,7 @@ footer p {
     #introduction {
         flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
         align-items: center; /* Centralize os elementos na tela menor */
-        padding-top: 120px; /* Ajuste para uma melhor aparência na tela menor */
+        padding-top: 130px; /* Ajuste para uma melhor aparência na tela menor */
     }
 
     #introduction img {
@@ -257,8 +257,8 @@ footer p {
     #knowledge ul li {
         width: auto; /* Faça com que os ícones ocupem 100% da largura na tela menor */
         box-sizing: border-box; /* Certifique-se de que as bordas estejam incluídas no cálculo da largura */
-        padding: 14px; /* Ajuste o preenchimento para uma melhor aparência na tela menor */
-        margin: auto 5px;
+        padding: 10px; /* Ajuste o preenchimento para uma melhor aparência na tela menor */
+        margin: auto auto;
     }
 
     #portfolio {
