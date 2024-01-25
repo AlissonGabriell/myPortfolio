@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="media/favicon/favicon.png" type="image/x-icon"/>
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <header id="#home">
+        <h1 class="title">MEU PORTFÓLIO<span class="special">.</span></h1>
+        <nav>
+            <a href="#introduction">Home</a>
+            <a href="#knowledge">Conhecimentos</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <p id="welcome">
+                Hi, bem vindo ao meu portfólio<span class="special">!</span>
+            </p>
+
+            <picture>
+                <source media="(max-width: 728px)" src="media/icons/programador_pq.png">
+                <img src="media/icons/icon-programador.png" alt="imagem">
+            </picture>
+
+            <aside>
+
+                <p class="section_title">SOBRE MIM</p>
+
+                <h2 class="subtitle">Olá, eu me chamo Alisson sou estudante de tech..</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis blanditiis beatae cumque recusandae facilis illo. Eos nobis earum numquam similique officiis cupiditate fugit, voluptatibus aperiam saepe, corrupti, dolore molestias est? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus expedita nesciunt voluptas accusantium atque quas eaque assumenda? Sapiente accusantium, mollitia doloremque necessitatibus placeat consequuntur nam fuga esse ex officiis. Tempora!</p>
+
+            </aside>
+        </section>
+
+        <section id="knowledge"> 
+            <p class="section_title">CONHECIMENTOS</p>
+
+            <h2 class="subtitle">Tecnologias</h2>
+
+            <ul>
+                <li>
+                    <picture>
+                        <source media="(max-width: 728px)" srcset="media/icons/do-sustenido-32.png">
+                        <img src="media/icons/do-sustenido.png" alt="C#" title="C#">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(max-width: 728px)" srcset="media/icons/servidor-sql-32.png">
+                        <img src="media/icons/servidor-sql.png" alt="SQL" title="SQL">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(max-width: 728px)" srcset="media/icons/js-32.png">
+                        <img src="media/icons/js.png" alt="JavaScript" title="JavaScript">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(max-width: 728px)" srcset="media/icons/html-5-32.png">
+                        <img src="media/icons/html-5.png" alt="HTML" title="HTML">
+                    </picture>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(max-width: 728px)" srcset="media/icons/icons8-git-32.png">
+                        <img src="media/icons/icons8-git-64.png" alt="Git" title="GIT">
+                    </picture>
+                </li>
+            </ul>
+
+            <div>
+                <h4>Estudando no momento: </h4>
+                <p>Java, NodeJS</p>
+            </div>
+            <div>
+                <h4>Breve entendimento: </h4>
+                <p>asp.net core mvc, css</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <p class="section_title">PORTFOLIO</p>
+
+            <div id="projectsButtons">
+                <button class="project" onclick=showProjectInfo()>Gerenciador de Tarefas</button>
+
+                <button class="project" onclick=showProjectInfo()>Controle de Finanças</button>
+                
+                <button class="project" onclick=showProjectInfo()>API em Java</button>
+            </div>
+
+            <div id="carousel">
+                <p>
+                    <h2 class="subtitle">
+                        <!--Project name-->
+                    </h2>
+                    <p class="text">
+                        <!--Project description-->
+                    </p>
+                    <p class="linkGitHb">
+                        <!--Link github-->
+                    </p>
+                </p>
+            </div>
+            <div id="video-container">
+                     <!--Project video-->
+            </div>
+            <!--video do projeto em funcionamento-->
+        </section>
+
+        <section id="contact">
+            <p class="section_title">CONTATO</p>
+
+            <h2 class="subtitle">Você me encontra em</h2>
+
+            <li title="email"><img src="media/icons/icons8-nova-mensagem-50.png" alt="email">alisson.bello04@hotmail.com</li> 
+            <li title="telefone"><img src="media/icons/icons8-telefone-50.png" alt="telefone">(41) 9 9943-7590</a></li> <br>
+            <li title="linkedin"><img src="media/icons/icons8-linkedin-50.png" alt="linkedin">www.linkedin.com/in/alisson-gabriel-santos-bello</li>
+            <li title="github"><img src="media/icons/icons8-github-50.png" alt="github" >https://github.com/AlissonGabriell</li>
+        </section>
+    </main>
+    <footer>
+        <p>©️ Copyright - Meu Portfolio</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

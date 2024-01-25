@@ -1,0 +1,270 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+:root {
+    --bg-color1: #2c2d32;
+    --bg-color2: #38393e;
+}
+
+header, #introduction,  #portfolio {
+    padding: 40px;
+    background-color: var(--bg-color1);
+    box-shadow: 1px, rgba(0, 0, 0, 0.132);
+}
+
+#knowledge, #contact, footer {
+    padding: 40px;
+    background-color: var(--bg-color2);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin: 5px 0px;
+}
+
+.section_title {
+    font-size: 12px;
+    color: yellow;
+}
+
+.text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.54)
+}
+
+.special {
+    font-size: 28px;
+    color: yellow;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px; /* Espaçamento interno desejado */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para efeito de elevação */
+    z-index: 1000; 
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.544);
+    margin: 20px;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    color: white;
+    border-bottom: 2px solid yellow;
+}
+
+#introduction {
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+#introduction #welcome {
+    font-size: 28px;
+    float: inline-start;
+    margin-left: 40px;
+}
+
+#introduction img {
+    margin: 0px;
+    margin-left: 80px;
+    padding: 40px;
+}
+
+#introduction aside {
+    margin-left: 150px; 
+    
+}
+
+#knowledge {
+    height: 360px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+#knowledge .section_title {
+    margin-top: 40px;
+}
+
+#knowledge ul {
+    justify-self: center;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#knowledge ul li{
+    display: inline-block;
+    margin: 0px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: var(--bg-color1);
+}
+
+
+#knowledge div {
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+#portfolio {
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio .section_title {
+    margin-top: 40px;
+}
+
+#portfolio .project {
+    padding: 2px 15px 8px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #ffffff81;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#portfolio .selected {
+    transition: 0.3s;
+    box-shadow: 0px 5px 0px -2px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: bold;
+}
+
+#projectsButtons {
+    width: 87vw;
+}
+
+#carousel .subtitle {
+    color: orange;
+}
+
+.linkGitHb p {
+    color: orange;
+}
+
+iframe {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+#contact {
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+#contact img {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#contact li {
+    display: inline-block;
+    background-color: var(--bg-color1);
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    border-top: 1.8px solid;
+    border-color: yellow;
+    padding: 15px;
+}
+
+footer p {
+    color: rgba(245, 245, 245, 0.618)
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Ajuste para telas menores */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #introduction {
+        flex-direction: column; /* Empilhe os elementos verticalmente em telas menores */
+        align-items: center; /* Centralize os elementos na tela menor */
+        padding-top: 100px; /* Ajuste para uma melhor aparência na tela menor */
+    }
+
+    #introduction img {
+        margin-left: 0; /* Alinhe a imagem ao centro na tela menor */
+        margin-bottom: 20px; /* Adicione espaço entre a imagem e o texto na tela menor */
+    }
+
+    #introduction aside {
+        margin-left: 0; /* Remova a margem à esquerda na tela menor */
+    }
+
+    #knowledge {
+        height: 300px;
+    }
+
+    #knowledge ul {
+        display: flex;
+    }
+
+    #knowledge ul li {
+        width: 100%; /* Faça com que os ícones ocupem 100% da largura na tela menor */
+        box-sizing: border-box; /* Certifique-se de que as bordas estejam incluídas no cálculo da largura */
+        padding: 20px; /* Ajuste o preenchimento para uma melhor aparência na tela menor */
+        margin: auto 5px;
+    }
+
+    #portfolio {
+        height: auto; /* Permita que a altura do portfólio seja ajustada automaticamente na tela menor */
+    }
+
+    #projectsButtons {
+        width: 100%; /* Faça com que os botões do projeto ocupem 100% da largura na tela menor */
+    }
+
+    iframe {
+        width: 400px;
+        height: 210px;
+    }
+}
